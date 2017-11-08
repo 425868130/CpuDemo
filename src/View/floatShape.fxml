@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!--上层浮动图形-->
+
+<Pane xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox fx:id="Pane_MoveBoxOC" layoutX="81.0" layoutY="167.0" spacing="15">
+      <children>
+          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="20.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="20.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="20.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      </children>
+   </VBox>
+   <Pane fx:id="Pane_MoveBox01" layoutX="149.0" layoutY="15.15625">
+      <children>
+            <Rectangle fx:id="Rectangle_MoveBox01" arcHeight="5.0" arcWidth="5.0" fill="RED" height="31.0" layoutY="0.84375" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="125.0" />
+            <Text fx:id="Txt_moveBox01" fill="WHITE" layoutY="24.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="MOV R1 R0" textAlignment="CENTER" wrappingWidth="124.9999864473939">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Text>
+      </children>
+   </Pane>
+    <Pane fx:id="Pane_MoveBox02" layoutX="149.0" layoutY="75.0" prefHeight="39.0" prefWidth="65.0">
+        <children>
+            <Rectangle fx:id="Rectangle_MoveBox02" arcHeight="5.0" arcWidth="5.0" fill="#197db0" height="38.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="64.0" />
+            <Text fx:id="Txt_moveBox02" fill="WHITE" layoutX="10.0" layoutY="32.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="CF" textAlignment="CENTER" wrappingWidth="41.000003688037395">
+                <font>
+                    <Font size="30.0" />
+                </font>
+            </Text>
+        </children>
+    </Pane>
+</Pane>

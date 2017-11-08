@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!--本布局包含界面的固定提示文本-->
+
+<Pane xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <Text layoutX="53.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R0" />
+
+    <Text layoutX="679.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IR" />
+    <Text layoutX="51.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSW" />
+
+    <Text layoutX="290.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="通用寄存器" textOrigin="TOP" wrappingWidth="21.21827006340027">
+        <font>
+            <Font size="18.0" />
+        </font></Text>
+    <Text layoutX="379.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AR" />
+    <Text layoutX="51.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DR" />
+    <Text layoutX="53.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R3" />
+    <Text layoutX="53.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R1" />
+    <Text layoutX="53.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R2" />
+    <Text layoutX="427.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="地址" textAlignment="CENTER" />
+    <Text layoutX="669.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PC" />
+    <Text layoutX="542.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OC" />
+    <Text layoutX="518.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="时序发生器 操作控制器" wrappingWidth="75.4384765625" />
+    <Text layoutX="679.0" layoutY="623.0" strokeType="OUTSIDE" strokeWidth="0.0" text="指令寄存器" />
+    <Text layoutX="516.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数  据" />
+    <Text layoutX="704.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" text="指令译码器" />
+    <Text layoutX="849.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C3" />
+    <Text layoutX="713.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="地址" />
+    <Text layoutX="776.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OP码" />
+    <Text layoutX="845.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="地址码" />
+    <Text layoutX="399.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数据地址总线" />
+    <Text layoutX="685.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="指令地址总线" />
+    <Text layoutX="717.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="指令Cache" />
+    <Text layoutX="424.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数据Cache" />
+    <Text layoutX="346.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数据总线DBUS" wrappingWidth="18.588870763778687" />
+    <Text layoutX="714.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="101" />
+    <Text layoutX="714.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="107" />
+    <Text layoutX="714.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="105" />
+    <Text layoutX="714.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="104" />
+    <Text layoutX="714.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="103" />
+    <Text layoutX="714.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="102" />
+    <Text layoutX="714.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="106" />
+    <Text layoutX="388.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C1" />
+    <Text layoutX="388.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C2" />
+    <Text layoutX="389.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C3" />
+    <Text layoutX="154.0" layoutY="602.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".   .   ." />
+    <Text layoutX="172.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".   .   ." />
+    <Text layoutX="888.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+1">
+        <font>
+            <Font size="18.0" />
+        </font></Text>
+    <Text fx:id="Txt_DataAddr07" layoutX="432.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . .">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataAddr06" layoutX="434.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataAddr05" layoutX="433.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataAddr04" layoutX="434.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataAddr03" layoutX="436.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataAddr02" layoutX="436.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataAddr01" layoutX="436.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataCache07" layoutX="531.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . .">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text layoutX="773.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".  .  ." />
+    <Text layoutX="838.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".  .  ." />
+    <Text layoutX="275.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C2" />
+    <Text layoutX="39.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".   .   ." />
+    <Text layoutX="121.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C1" />
+    <Text layoutX="303.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text="通往 I/O 端口" />
+    <Text layoutX="431.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".   .   ." />
+   <Text layoutX="942.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="指令总线IBUS" wrappingWidth="10.55566337693017" />
+</Pane>

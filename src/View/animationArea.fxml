@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+
+<!--动画图形布局-->
+
+<Pane fx:id="R1" maxHeight="650.0" maxWidth="1000.0" minHeight="650.0" minWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <!--图形集合-->
+      <fx:include source="componentGraph.fxml" />
+      <!--界面文字提示-->
+      <fx:include source="fixationText.fxml" />
+      <!--可变文本-->
+      <fx:include source="variateText.fxml" />
+      <!--线条轨迹-->
+       <fx:include source="baseRailway.fxml" />
+      <!--指令执行路径-->
+       <fx:include source="codePath.fxml" />
+   </children>
+</Pane>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.HLineTo?>
+<?import javafx.scene.shape.MoveTo?>
+<?import javafx.scene.shape.Path?>
+<?import javafx.scene.shape.VLineTo?>
+
+<Pane layoutX="0" layoutY="0" maxHeight="650.0" maxWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+    <Path fx:id="path_pcToOrdeCache" fill="DODGERBLUE" layoutX="637.0" layoutY="341.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-55.0" />
+            <HLineTo x="3.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_orderCacheToIR" fill="DODGERBLUE" layoutX="650.0" layoutY="42.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-52.0" />
+            <HLineTo x="170.0" />
+            <VLineTo y="583.0" />
+            <HLineTo x="-15.0" />
+            <VLineTo y="549.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_IrToDecoder" fill="DODGERBLUE" layoutX="590.0" layoutY="546.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-55.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_OC" fill="DODGERBLUE" layoutX="390.0" layoutY="310.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <HLineTo x="-65.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_AluToDR" fill="#1f93ff3b" layoutX="35.0" layoutY="30.0" opacity="0.0" stroke="WHITE" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-35.0" />
+            <HLineTo x="157.0" />
+            <VLineTo y="420.0" />
+            <HLineTo x="-8.0" />
+            <VLineTo y="385.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_drToRegister" fill="DODGERBLUE" layoutX="30.0" layoutY="379.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-66.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_RegisterToAlu" fill="DODGERBLUE" layoutX="25.0" layoutY="163.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-50.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_AluToPsw" fill="#1f93ff6e" layoutX="-50.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <HLineTo x="-60.0" />
+            <VLineTo y="498.0" />
+            <HLineTo x="30.0" />
+            <VLineTo y="469.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_RegisterToDataCache" fill="#0088ff59" layoutX="75.0" layoutY="163.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-18.0" />
+            <HLineTo x="110.0" />
+            <VLineTo y="-167.0" />
+            <HLineTo x="295.0" />
+            <VLineTo y="-115.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_RegisterToAR" fill="#1f93ff64" layoutX="75.0" layoutY="152.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-20.0" />
+            <HLineTo x="111.0" />
+            <VLineTo y="247.0" />
+            <HLineTo x="284.0" />
+            <VLineTo y="214.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_ArToDataCache" fill="DODGERBLUE" layoutX="360.0" layoutY="335.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-44.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_DataCacheToDR" fill="#1f93ff57" layoutX="370.0" layoutY="47.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-48.0" />
+            <HLineTo x="-184.0" />
+            <VLineTo y="408.0" />
+            <HLineTo x="-347.0" />
+            <VLineTo y="371.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_IrToPC" fill="#1f93ff75" layoutX="700.0" layoutY="556.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-150.0" />
+            <HLineTo x="-57.0" />
+            <VLineTo y="-182.0" />
+        </elements>
+    </Path>
+    <Path fx:id="path_IrToAR" fill="#1f93ff81" layoutX="700.0" layoutY="556.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo />
+            <VLineTo y="-150.0" />
+            <HLineTo x="-340.0" />
+            <VLineTo y="-183.0" />
+        </elements>
+    </Path>
+        <fx:include source="floatShape.fxml" />
+    </children>
+</Pane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.ClosePath?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.LineTo?>
+<?import javafx.scene.shape.MoveTo?>
+<?import javafx.scene.shape.Path?>
+<?import javafx.scene.shape.Rectangle?>
+
+<!--元件几何图形面板-->
+
+<Pane xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <!--ALU矩形轨迹-->
+    <Path fx:id="Shape_ALU" fill="DODGERBLUE" layoutX="78.0" layoutY="44.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo x="50.0" />
+            <LineTo x="150.0" />
+            <LineTo x="200.0" y="80.0" />
+            <LineTo y="80.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <!--通用寄存器,DR及PSW-->
+    <Rectangle fx:id="Shape_R0" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="86.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="191.0" />
+    <Rectangle fx:id="Shape_R1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="86.0" layoutY="209.0" stroke="BLACK" strokeType="INSIDE" width="191.0" />
+    <Rectangle fx:id="Shape_R2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="86.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" width="191.0" />
+    <Rectangle fx:id="Shape_R3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="86.0" layoutY="284.0" stroke="BLACK" strokeType="INSIDE" width="191.0" />
+    <Rectangle fx:id="Shape_DR" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="89.0" layoutY="388.0" stroke="BLACK" strokeType="INSIDE" width="191.0" />
+    <Rectangle fx:id="Shape_PSW" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="90.0" layoutY="525.0" stroke="BLACK" strokeType="INSIDE" width="191.0" />
+    <!--AR,OC,PC,指令译码器及IR矩形-->
+    <Rectangle fx:id="Shape_AR" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="410.0" layoutY="347.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+    <Rectangle fx:id="Shape_OC" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="80.0" layoutX="476.0" layoutY="437.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+    <Rectangle fx:id="Shape_PC" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="38.0" layoutX="700.0" layoutY="348.0" stroke="BLACK" strokeType="INSIDE" width="179.0" />
+    <Rectangle fx:id="Shape_Decoder" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="63.0" layoutX="697.0" layoutY="447.0" stroke="BLACK" strokeType="INSIDE" width="89.0" />
+    <Rectangle fx:id="Shape_IR" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="39.0" layoutX="703.0" layoutY="566.0" stroke="BLACK" strokeType="INSIDE" width="179.0" />
+    <!--数据Cache-->
+    <VBox fx:id="Shape_DataCache" layoutX="410.0" layoutY="57.0">
+        <children>
+            <Rectangle fx:id="Shape_DataCache01" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+            <Rectangle fx:id="Shape_DataCache02" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+            <Rectangle fx:id="Shape_DataCache03" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+            <Rectangle fx:id="Shape_DataCache04" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+            <Rectangle fx:id="Shape_DataCache05" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+            <Rectangle fx:id="Shape_DataCache06" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+            <Rectangle fx:id="Shape_DataCache07" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+            <Rectangle fx:id="Shape_DataCache08" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+        </children>
+    </VBox>
+    <!--数据Cache表格分割线-->
+    <Line endX="140.0" layoutX="452.0" layoutY="178.0" rotate="90.0" startX="-98.0" />
+    <!--指令Cache-->
+    <VBox fx:id="Shape_OrderCache" layoutX="692.0" layoutY="56.0" prefHeight="210.0" prefWidth="220.0">
+        <children>
+            <Rectangle fx:id="Shape_OrderCache01" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Rectangle fx:id="Shape_OrderCache02" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Rectangle fx:id="Shape_OrderCache03" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Rectangle fx:id="Shape_OrderCache04" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Rectangle fx:id="Shape_OrderCache05" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Rectangle fx:id="Shape_OrderCache06" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Rectangle fx:id="Shape_OrderCache07" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Rectangle fx:id="Shape_OrderCache08" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+        </children>
+    </VBox>
+    <!--指令Cache分割线-->
+    <Line endX="106.0" layoutX="764.0" layoutY="175.0" rotate="90.0" startX="-132.0" />
+    <Line endX="100.0" layoutX="844.0" layoutY="175.0" rotate="90.0" startX="-137.0" />
+    <Line endX="102.0" layoutX="710.0" layoutY="586.0" rotate="90.0" startX="64.0" />
+
+    <!--指针箭头-->
+    <Path fx:id="arrow" fill="RED" layoutX="656.0" layoutY="93.0" rotate="90.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+</Pane>

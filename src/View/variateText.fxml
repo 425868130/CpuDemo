@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!--本布局包含界面中的可变文本,主要是各寄存器的状态值-->
+<!--style="-fx-background-color:red;"-->
+
+<Pane xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <Text fx:id="Txt_DataAddrCache" layoutX="407.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数据地址寄存器" textAlignment="CENTER" wrappingWidth="185.99999601689342">
+      <font>
+         <Font size="18.0" />
+      </font></Text>
+    <Text fx:id="Txt_StatusRegister" layoutX="94.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="状态字寄存器" textAlignment="CENTER" wrappingWidth="185.99999601689342">
+      <font>
+         <Font size="18.0" />
+      </font></Text>
+    <Text fx:id="Txt_BufferRegister" layoutX="88.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数据缓冲寄存器" textAlignment="CENTER" wrappingWidth="186.0">
+      <font>
+         <Font size="18.0" />
+      </font></Text>
+    <Text fx:id="Txt_R0" fill="WHITE" layoutX="163.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_ALU" layoutX="145.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALU" textAlignment="CENTER">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_R1" fill="WHITE" layoutX="163.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_R3" fill="WHITE" layoutX="163.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_R2" fill="WHITE" layoutX="163.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_opCode01" fill="WHITE" layoutX="770.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOV">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+
+    <Text fx:id="Txt_addrCode01" fill="WHITE" layoutX="830.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R1,R2">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataCache06" fill="WHITE" layoutX="530.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataCache05" fill="WHITE" layoutX="530.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . .">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataCache04" fill="WHITE" layoutX="530.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataCache03" fill="WHITE" layoutX="530.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataCache02" fill="WHITE" layoutX="531.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_DataCache01" fill="WHITE" layoutX="531.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_IR_opCode" fill="WHITE" layoutX="723.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOV">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_IR_addrCode" fill="WHITE" layoutX="797.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R1,R2">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_PC" layoutX="732.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="程序计数器" textAlignment="CENTER" wrappingWidth="115.0">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_opCode06" fill="WHITE" layoutX="772.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AND">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_addrCode06" fill="WHITE" layoutX="831.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_opCode05" fill="WHITE" layoutX="774.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JMP">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_addrCode05" fill="WHITE" layoutX="831.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_opCode04" fill="WHITE" layoutX="774.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STO">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_opCode03" fill="WHITE" layoutX="774.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAD">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_addrCode04" fill="WHITE" layoutX="831.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R2,(R3)">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_addrCode03" fill="WHITE" layoutX="831.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_addrCode02" fill="WHITE" layoutX="833.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <Text fx:id="Txt_opCode02" fill="WHITE" layoutX="771.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+</Pane>

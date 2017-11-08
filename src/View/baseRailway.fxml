@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.ClosePath?>
+<?import javafx.scene.shape.LineTo?>
+<?import javafx.scene.shape.Path?>
+<?import javafx.scene.shape.MoveTo?>
+<?import javafx.scene.shape.Line?>
+<Pane xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <!--主干轨道线-->
+    <Line endX="380.0" layoutX="207.0" layoutY="7.0" startX="-100.0" strokeWidth="8.0"  xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1"/>
+    <Line endX="170.0" layoutX="805.0" layoutY="7.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="470.0" layoutX="147.0" layoutY="297.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="450.0" layoutX="436.0" layoutY="416.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="50.0" layoutX="277.0" layoutY="464.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="525.0" layoutX="767.0" layoutY="320.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="80.0" layoutX="900.0" layoutY="638.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-71.0" layoutX="880.0" layoutY="623.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-50.0" layoutX="811.0" layoutY="538.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="45.0" layoutX="868.0" layoutY="491.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-78.0" layoutX="591.0" layoutY="400.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-80.0" layoutX="875.0" layoutY="400.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-41.0" layoutX="246.0" layoutY="355.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-66.0" layoutX="252.0" layoutY="447.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="2.0" layoutX="325.0" layoutY="152.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-58.0" layoutX="300.0" layoutY="149.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-58.0" layoutX="209.0" layoutY="148.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-57.0" layoutX="582.0" layoutY="322.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-72.0" layoutX="263.0" layoutY="26.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-57.0" layoutX="871.0" layoutY="322.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-57.0" layoutX="595.0" layoutY="32.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+    <Line endX="-57.0" layoutX="891.0" layoutY="31.0" rotate="90.0" startX="-100.0" strokeWidth="8.0" />
+
+    <!--三角形箭头-->
+    <Path fill="BLACK" layoutX="161.0" layoutY="319.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+
+    <Path fill="BLACK" layoutX="488.0" layoutY="293.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="487.0" layoutY="382.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="206.0" layoutY="119.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="154.0" layoutY="423.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="115.0" layoutY="119.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+
+    <Path fill="BLACK" layoutX="162.0" layoutY="7.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="770.0" layoutY="382.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="777.0" layoutY="293.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="501.0" layoutY="7.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="261.0" layoutY="141.0" rotate="90.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="501.0" layoutY="41.0" rotate="180.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="797.0" layoutY="39.0" rotate="180.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="797.0" layoutY="6.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="721.0" layoutY="507.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="825.0" layoutY="416.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <Path fill="BLACK" layoutX="779.0" layoutY="601.0" strokeType="INSIDE" strokeWidth="0.0">
+        <elements>
+            <MoveTo y="20.0" />
+            <LineTo x="15.0" />
+            <LineTo x="30.0" y="20.0" />
+            <ClosePath />
+        </elements>
+    </Path>
+    <!--外围线条-->
+    <Line endX="-12.0" layoutX="126.0" layoutY="63.0" startX="-100.0" />
+    <Line endX="-42.0" layoutX="138.0" layoutY="97.0" startX="-100.0" />
+    <Line endX="398.0" layoutX="-112.0" layoutY="346.0" rotate="90.0" startX="-100.0" />
+    <Line endX="-13.0" layoutX="137.0" layoutY="594.0" startX="-100.0" />
+    <Line endX="-71.0" layoutX="211.0" layoutY="578.0" rotate="90.0" startX="-102.0" />
+    <Line endX="288.0" layoutX="-85.0" layoutY="440.0" rotate="90.0" startX="-92.0" />
+    <Line endX="125.0" layoutX="113.0" layoutY="629.0" startX="-100.0" />
+    <Line endX="-36.0" layoutX="307.0" layoutY="597.0" rotate="90.0" startX="-100.0" />
+    <Line endX="-65.0" layoutX="206.0" layoutY="507.0" rotate="90.0" startX="-100.0" />
+    <Line endX="-65.0" layoutX="321.0" layoutY="507.0" rotate="90.0" startX="-100.0" />
+    <Line endX="-65.0" layoutX="235.0" layoutY="507.0" rotate="90.0" startX="-100.0" />
+    <Line endX="-42.0" layoutX="518.0" layoutY="445.0" startX="-100.0" />
+    <Line endX="-42.0" layoutX="517.0" layoutY="473.0" startX="-100.0" />
+    <Line endX="-42.0" layoutX="518.0" layoutY="510.0" startX="-100.0" />
+    <Line endX="-42.0" layoutX="740.0" layoutY="454.0" startX="-100.0" />
+    <Line endX="-42.0" layoutX="740.0" layoutY="474.0" startX="-100.0" />
+    <Line endX="-42.0" layoutX="740.0" layoutY="497.0" startX="-100.0" />
+    <Line endX="-76.0" layoutX="244.0" layoutY="29.0" startX="-100.0" />
+    <!--箭头图形-->
+    <Path fill="#ffffff00" layoutX="233.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+    <Path fill="#ffffff00" layoutX="413.0" layoutY="440.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+
+    <Path fill="#ffffff00" layoutX="413.0" layoutY="505.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+
+    <Path fill="#ffffff00" layoutX="413.0" layoutY="468.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+
+    <Path fill="#ffffff00" layoutX="638.0" layoutY="449.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+
+    <Path fill="#ffffff00" layoutX="118.5" layoutY="486.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+
+    <Path fill="#ffffff00" layoutX="147.5" layoutY="485.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+
+    <Path fill="#ffffff00" layoutX="638.0" layoutY="492.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+
+    <Path fill="#ffffff00" layoutX="638.0" layoutY="469.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+    <Path fill="#ffffff00" layoutX="234.0" layoutY="562.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+    <Path fill="#ffffff00" layoutX="119.0" layoutY="562.0" stroke="BLACK" strokeType="INSIDE">
+        <elements>
+            <MoveTo y="10.0" />
+            <LineTo x="5.0" />
+            <LineTo x="10.0" y="10.0" />
+        </elements>
+    </Path>
+</Pane>

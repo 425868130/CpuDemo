@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+
+<!--界面总体布局:分为参数布局和控制区布局两部分-->
+
+<FlowPane style="-fx-background-image: url('/resource/images/backgroundImg.jpg');-fx-background-size: stretch" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <HBox maxHeight="768.0" maxWidth="1400.0" spacing="25.0">
+        <!--演示面板-->
+        <fx:include source="controlView.fxml" />
+        <!--参数输入面板-->
+        <fx:include source="parameterPane.fxml" />
+    </HBox>
+</FlowPane>
